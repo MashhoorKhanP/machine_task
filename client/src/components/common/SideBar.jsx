@@ -182,7 +182,7 @@ const location = useLocation();
           <ul className="space-y-2 font-medium">
             <li>
             <a
-      href="/home"
+      href="#"
       className={`flex items-center p-2 text-gray-900 dark:text-black group ${
         location.pathname === "/home" ? "bg-gray-300 dark:bg-gray-300" : "hover:bg-gray-300 dark:hover:bg-gray-300"
       }`}
